@@ -60,7 +60,7 @@ sudo mkdir  /root/.dixicoin
     rpcpassword=$(openssl rand -base64 48)
     echo -n "What is your masternodeprivkey? (Hint:genkey output)"
     read MASTERNODEPRIVKEY
-    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\naddnode=45.63.114.118\naddnode=104.238.140.85:61150\naddnode=199.247.31.101:61150\naddnode=195.201.129.153:61150\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=61150\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:61150\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.dixicoin/dixicoin.conf
+    echo -e "rpcuser=$rpcuser\nrpcpassword=$rpcpassword\naddnode=45.63.114.118\naddnode=104.238.140.85:61150\naddnode=199.247.31.101:61150\naddnode=195.201.129.153:61150\naddnode=107.173.122.36:61150\nserver=1\nlisten=1\nmaxconnections=100\ndaemon=1\nport=61150\nstaking=0\nrpcallowip=127.0.0.1\nexternalip=$VPSIP:61150\nmasternode=1\nmasternodeprivkey=$MASTERNODEPRIVKEY" > /root/.dixicoin/dixicoin.conf
 
 
 # echo "Get Chaindata"
