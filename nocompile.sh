@@ -73,4 +73,5 @@ echo "Starting Dixicoin Daemon"
 sudo dixicoind --daemon
 #echo "Run ./dixicoind"
 #screen -dmS dixicoind /dixicoin/src/./dixicoind
-echo "If you like this script donate DNR to DBuzzkiLLrF4aTeSbYGWUD9bxKhud9DSiV or buy some Denarius and hodl"
+echo "If you like this script donate DNR to DBuzzkiLLrF4aTeSbYGWUD9bxKhud9DSiV"
+echo "or buy some Denarius and hodl!"
