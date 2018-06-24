@@ -17,7 +17,7 @@ do
     1) bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/DIXI-masternode/master/nocompile.sh)" ;;
     2) dixicoin-cli getinfo ;;
     3) tail -f ~/.dixicoin/debug.log ;;
-    4) dixicoind masternode status ;;
+    4) dixicoin-cli masternode status ;;
     q) exit ;;
   esac
   echo -e "Enter return to continue \c"
