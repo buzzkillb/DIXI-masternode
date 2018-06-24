@@ -10,6 +10,7 @@ do
   echo "Enter 3 to Getinfo: "
   echo "Enter 4 to scroll debug.log: "
   echo "Enter 5 to Masternode status: "
+  echo "Enter 6 to edit masternode.conf: "
   echo "Enter q to exit this menu: "
   echo -e "\n"
   echo -e "Enter your selection \c"
@@ -20,6 +21,7 @@ do
     3) dixicoin-cli getinfo ;;
     4) tail -f ~/.dixicoin/debug.log ;;
     5) dixicoin-cli masternode status ;;
+    6) nano /root/.dixicoin/masternode.conf ;;
     q) exit ;;
   esac
   echo -e "Enter return to continue \c"
