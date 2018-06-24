@@ -16,7 +16,7 @@ do
   read answer
   case "$answer" in
     1) bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/DIXI-masternode/master/nocompile.sh)" ;;
-    2) bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/DIXI-masternode/master/update-compile.sh)" ;;
+    2) bash -c "$(wget -O - https://raw.githubusercontent.com/buzzkillb/DIXI-masternode/master/update-nocompile.sh)" ;;
     3) dixicoin-cli getinfo ;;
     4) tail -f ~/.dixicoin/debug.log ;;
     5) dixicoin-cli masternode status ;;
