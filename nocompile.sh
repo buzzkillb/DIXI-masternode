@@ -48,6 +48,7 @@ unzip dixi-4.3.0-aarch64-linux-gnu.zip -d dixicoin
 mv dixicoin/dixicoind /usr/local/bin/dixicoind
 mv dixicoin/dixicoin-cli /usr/local/bin/dixicoin-cli
 chmod 755 /usr/local/bin/dixicoind
+chmod 755 /usr/local/bin/dixicoin-cli
 
 echo "Populate dixicoin.conf"
 sudo mkdir  /root/.dixicoin
