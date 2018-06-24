@@ -44,7 +44,8 @@ sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 
 echo "Downloading Dixicoin Wallet"
 wget wget https://github.com/Dixicoin-DXC/Dixicoin/releases/download/untagged-9b6fe8bd210320b07944/dixi-4.3.0-aarch64-linux-gnu.zip
-mv dixicoind /usr/local/bin/dixicoind
+unzip dixi-4.3.0-aarch64-linux-gnu.zip -d dixicoin
+mv dixicoin/dixicoind /usr/local/bin/dixicoind
 chmod 755 /usr/local/bin/dixicoind
 
 echo "Populate dixicoin.conf"
